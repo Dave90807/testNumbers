@@ -10,6 +10,15 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Helper h1 = new Helper();
+            int num = 1;
+            Console.WriteLine(num.ToString());
+            Console.ReadKey();
+            Console.WriteLine();
+            h1.NumLoop();
+            Console.ReadKey();
+            h1.MakeAnArray();
         }
     }
+
 }
