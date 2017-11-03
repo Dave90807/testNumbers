@@ -18,7 +18,8 @@ namespace ConsoleApp1
             h1.NumLoop();
             Console.ReadKey();
             h1.MakeAnArray();
-        }
+            h1.CreateArrayWords();
+        }   
     }
 
 }

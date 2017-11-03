@@ -37,5 +37,18 @@ namespace ConsoleApp1
             }
             Console.ReadKey();
         }
+
+        public void CreateArrayWords()
+        {
+            string[] wordArray = new string[] { "The", "First", "Four", "Words" };
+            foreach (string word in wordArray)
+                Console.WriteLine($"{word}");
+            Console.ReadKey();
+        }
+
+        public void PrintWordArray()
+        {
+            
+        }
     }
 }
